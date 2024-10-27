@@ -3,6 +3,7 @@ body {
   font-family: "Raleway", sans-serif;
   background-color: white;
 }
+
 h1,
 h2,
 h3,
@@ -16,30 +17,36 @@ blockquote {
   margin: 0;
   padding: 0;
 }
+
 ul {
   list-style: circle;
 }
+
 h2 {
   text-transform: uppercase;
 }
+
 a {
   color: black;
 }
+
+address {
+  font-style: normal;
+}
+
 .content_section {
   box-sizing: border-box;
   width: 1100px;
-
 }
+
 .nav__style {
-  
+  line-height: 24.3px;
   font-size: 18px;
-  line-height: 1.5;
 }
 
 .nav__menu-list {
   list-style: none;
 }
-
 
 /*================header================*/
 
@@ -47,22 +54,22 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-  margin: 92px 24px;
+  padding: 0px 24px;
+  margin: 92px 0px 97px;
 }
 
 .header__nav {
   display: flex;
   justify-content: space-between;
-  
   width: 391px;
 }
+
 .header__logo__contact {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  width: 598px;
+  width: 568px;
 }
 
 .header__logo {
@@ -70,10 +77,12 @@ a {
   position: relative;
   width: 124px;
 }
+
 .header__logo__frame {
   display: flex;
   position: absolute;
 }
+
 .header__contact {
   display: flex;
   flex-direction: column;
@@ -93,135 +102,137 @@ a {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin: 4px 0px 33px;
   background-image: url(../images/lotus-flower.svg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  height: 757px;
 }
 
 .black {
   display: flex;
   position: absolute;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.6;
   height: 100%;
   width: 100%;
 }
+
 .cover__menu {
   padding: 165px 50px 51px;
 }
+
 .menu__title {
   position: relative;
   z-index: 1;
   color: white;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  line-height: 115px;
   text-transform: uppercase;
 }
+
 .accent-span {
   display: block;
   font-size: 100px;
-  line-height: 115px;
-  letter-spacing: 35px;
+  letter-spacing: 30px;
 }
+
 .accent-span-letter {
-  letter-spacing: 90px;
+  letter-spacing: 60px;
 }
+
 .text-center {
   text-align: center;
-  padding: 0px 395px 0px 336px;
 }
+
 .text-right {
   text-align: right;
-  padding-left: 633px;
 }
+
 .menu__item {
-  padding-top: 158px;
-  width: 100%;
+  padding-top: 135px;
+  padding-left: 28px;
   color: white;
-  line-height: 1.5;
   font-size: 22px;
-  
   text-transform: uppercase;
 }
+
 .item__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
   position: relative;
   z-index: 1;
 }
-.item__content-style {
 
-  
+.item__content-style {
+  font-size: 22px;
+  word-spacing: 18.5px;
 }
-.item__content__button {
+
+.item__content-button {
   padding: 4px;
   border: 1px solid white;
   padding: 12px 32px 11px 31px;
-
 }
 
 /*===============section2=================*/
 
 .lots {
-  margin: 146px 24px;
+  margin-top: 180px;
+  padding: 0px 24px;
 }
+
 .lots__title {
   padding-bottom: 27px;
   padding-left: 40px;
   font-size: 40px;
 }
+
 .lot__cards {
   display: flex;
   justify-content: space-between;
-  gap: 25px;
-  width: 100%;
 }
+
 .card-style {
   color: white;
-  height: 563px;
-  width: 334px;
+  height: 464px;
+  width: 254px;
 }
-.card__main-style {
+
+.card__title {
   z-index: 1;
-  font-size: 25px;
+  font-size: 22px;
   text-decoration: underline;
   line-height: 27px;
-  letter-spacing: 1px;
 }
-.card__content-style {
+
+.card__content {
   z-index: 1;
-  font-size: 21px;
+  font-size: 20px;
   line-height: 24px;
 }
+
 .card__first {
   position: relative;
   display: flex;
-
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 51px 40px 48px;
-
   background-image: url(../images/photo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .card__second {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  
   padding: 51px 40px 48px;
-
   background-image: url(../images/photo-second.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .card__third {
   display: flex;
   position: relative;
@@ -232,12 +243,14 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.lots__card__info-style {
+
+.card__info {
   padding-top: 30px;
-  padding-left: 20px;
+  padding-left: 40px;
   font-size: 20px;
   text-decoration: underline;
 }
+
 .cards-black {
   top: 0px;
   left: 0px;
@@ -246,46 +259,50 @@ a {
 /*===============section3=================*/
 
 .about {
-  margin: 146px 24px;
+  padding: 0px 24px;
+  margin-top: 146px;
 }
+
 .about__content {
   position: relative;
-  padding-top: 133px;
+  padding-top: 149px;
   padding-left: 359px;
-  padding-bottom: 92px;
 }
+
 .about__text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 35px;
-  padding-top: 100px;
+  gap: 23px;
 }
+
 .about__title {
+  padding-bottom: 112px;
 }
+
 .about__title-style {
   font-size: 40px;
   line-height: 24px;
 }
+
 .about__text-style {
   font-size: 20px;
   line-height: 24px;
-  
 }
+
 .about__logo {
   position: absolute;
   padding-top: 35px;
   padding-left: 47px;
 }
-.about__logo-title {
-  position: relative;
-}
-.about__logo-title {
+
+.logo-title {
   position: absolute;
-  padding: 64px 45px 62px 46px;
+  padding: 64px 0px 0px 47px;
   z-index: 1;
 }
-.about__logo-background {
+
+.logo-background {
   position: absolute;
   z-index: -1;
 }
@@ -295,17 +312,17 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 88px 50px;
+  padding: 0px 50px;
+  margin: 180px 0px 88px;
 }
 
- 
 .footer__contact {
   display: flex;
   flex-direction: column;
   list-style: none;
   width: 240px;
 }
+
 .footer__menu {
   display: flex;
   flex-direction: column;
@@ -317,5 +334,31 @@ a {
   display: flex;
   position: relative;
   justify-content: space-between;
+  gap: 48px;
+}
 
+.icons__ellipse {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.icons__youtube {
+  position: absolute;
+  padding: 14px 11px;
+}
+
+.icons__youtube-logo {
+  position: absolute;
+  padding: 19px;
+}
+
+.icons__vk {
+  position: absolute;
+  padding: 15px 105px;
+}
+
+.icons__pinterest {
+  position: absolute;
+  padding: 13px 13px 13px 208px;
 }
