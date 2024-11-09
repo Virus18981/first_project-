@@ -6,37 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="/styles/style.css" />
   </head>
   <body>
-    <header class="content_section header">
+    <header class="wrapper header">
       <nav>
-        <ul class="header__nav nav__style">
-          <li class="nav__menu-list">главная</li>
+        <ul class="header__nav navigation">
+          <li class="navigation__item__no-point">главная</li>
           <li><a href="#0">посмотреть лоты</a></li>
           <li><a href="#0">об аукционе</a></li>
         </ul>
       </nav>
-      <div class="header__logo__contact">
+      
         <a class="header__logo">
-          <img src="./images/Vector.png" alt="Логотип" />
-          <img
-            src="./images/Vector-frame.png"
-            alt="Рамка логотипа"
-            class="header__logo__frame"
-          />
+          <img src="./images/logo.svg" alt="Логотип" />
         </a>
         <address>
-          <ul class="header__contact nav__style">
+          <ul class="contacts navigation">
             <li><a href="#0">+999 555 5555</a></li>
             <li><a href="#0">info@sobaka.ge</a></li>
             <li>наб. Принсенграхт 263-<br />265, Амстердам</li>
           </ul>
         </address>
-      </div>
+      
     </header>
     <main class="content">
-      <section class="content_section cover">
+      <section class="cover">
         <div class="cover__menu">
           <h1 class="menu__title">
             <span class="accent-span"
@@ -60,7 +57,7 @@
         </div>
         <div class="black"></div>
       </section>
-      <section class="content_section lots">
+      <section class="wrapper lots">
         <h2 class="lots__title">Лоты</h2>
         <div class="lot__cards">
           <div class="card__first card-style">
@@ -101,7 +98,7 @@
         </div>
         <p class="card__info"><a href="#0">посмотреть больше</a></p>
       </section>
-      <section class="content_section about">
+      <section class="wrapper about">
         <a class="about__logo" href="#0"
           ><img
             src="./images/Ellipse.png"
@@ -139,21 +136,21 @@
         </div>
       </section>
     </main>
-    <footer class="content_section footer">
+    <footer class="wrapper footer">
       <address>
-        <ul class="footer__contact nav__style">
+        <ul class="contacts navigation">
           <li><a href="#0" class="contact__menu-item">+999 555 5555</a></li>
           <li><a href="#0" class="contact__menu-item">info@sobaka.ge</a></li>
           <li>наб. Принсенграхт 263-<br />265, Амстердам</li>
         </ul>
       </address>
       <nav>
-        <ul class="footer__menu nav__style">
-          <li class="nav__menu-list">главная</li>
-          <li class="nav__menu-list">
+        <ul class="footer__menu navigation">
+          <li class="navigation__item__no-point">главная</li>
+          <li class="navigation__item__no-point">
             <a href="#0">посмотреть лоты</a>
           </li>
-          <li class="nav__menu-list">
+          <li class="navigation__item__no-point">
             <a href="#0">об аукционе</a>
           </li>
         </ul>
