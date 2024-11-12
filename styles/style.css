@@ -47,6 +47,7 @@ address {
   padding-left: 24px;
   margin-top: 92px;
   margin-bottom: 97px;
+  
 }
 
 .header__nav {
@@ -67,6 +68,7 @@ address {
   position: relative;
 }
 
+
 /*===============section1=================*/
 
 .cover {
@@ -76,10 +78,11 @@ address {
   background-image: url(../images/lotus-flower.jpg);
   background-repeat: no-repeat;
   height: 757px;
-  width: ;
+ max-width: 1100px;
+ margin: auto;
 }
 
-.black {
+.overlay {
   display: flex;
   position: absolute;
   background-color: black;
@@ -92,31 +95,37 @@ address {
   padding: 165px 50px 51px;
 }
 
-.menu__title {
+.title {
   position: relative;
   z-index: 1;
   color: white;
-  line-height: 115px;
+  
   text-transform: uppercase;
 }
 
-.accent-span {
-  display: block;
-  font-size: 100px;
+.title__text {
+font-size: 100px;
+font-weight: 700;
+line-height: 115px;
+color: white;
+}
+
+.title__text_left {
+  text-align: left;
+}
+
+.title__text_ls-l {
+  letter-spacing: 20px;
+}
+
+.title__text_ls-xl {
   letter-spacing: 30px;
 }
 
-.accent-span-letter {
-  letter-spacing: 60px;
+.title__text_ls-no {
+  letter-spacing: 0;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: right;
-}
 
 .menu__item {
   padding-top: 135px;
@@ -157,7 +166,7 @@ address {
   font-size: 40px;
 }
 
-.lot__cards {
+.lots__container {
   display: flex;
   justify-content: space-between;
 }
@@ -181,38 +190,27 @@ address {
   line-height: 24px;
 }
 
-.card__first {
+.cards {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 51px 40px 48px;
-  background-image: url(../images/photo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.card__second {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 51px 40px 48px;
-  background-image: url(../images/photo-second.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.cards:first-of-type {
+background-image: url(../images/photo.jpg);
 }
 
-.card__third {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 51px 40px 48px;
-  background-image: url(../images/photo-third.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.cards:nth-of-type(2) {
+background-image: url(../images/photo-second.jpg);
+}
+
+.cards:nth-of-type(3) {
+   background-image: url(../images/photo-third.jpg);
 }
 
 .card__info {
@@ -222,7 +220,7 @@ address {
   text-decoration: underline;
 }
 
-.cards-black {
+.cards-overlay {
   top: 0px;
   left: 0px;
 }
@@ -282,8 +280,7 @@ address {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding-right: 50px;
-  padding-left: 50px;
+  
   margin-top: 180px;
   margin-bottom: 88px;
 }
@@ -297,33 +294,25 @@ address {
 
 .footer__icons {
   display: flex;
-  position: relative;
   justify-content: space-between;
   gap: 48px;
 }
 
-.icons__ellipse {
-  position: relative;
+
+.icons__youtube {
   width: 48px;
   height: 48px;
 }
 
-.icons__youtube {
-  position: absolute;
-  padding: 14px 11px;
-}
-
-.icons__youtube-logo {
-  position: absolute;
-  padding: 19px;
-}
 
 .icons__vk {
-  position: absolute;
-  padding: 15px 105px;
+  width: 48px;
+  height: 48px;
 }
 
 .icons__pinterest {
-  position: absolute;
-  padding: 13px 13px 13px 208px;
+  width: 48px;
+  height: 48px;
 }
+
+
