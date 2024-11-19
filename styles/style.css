@@ -1,0 +1,318 @@
+ul {
+  list-style: circle;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+a {
+  color: black;
+}
+
+address {
+  font-style: normal;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  max-width: 1052px;
+  margin: auto;
+}
+
+.navigation {
+  line-height: 24.3px;
+  font-size: 18px;
+}
+
+.navigation__item__no-point {
+  list-style: none;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 240px;
+}
+
+/*================header================*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  padding-right: 24px;
+  padding-left: 24px;
+  margin-top: 92px;
+  margin-bottom: 97px;
+  
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 391px;
+}
+
+.header__logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*=============main================*/
+
+.content {
+  position: relative;
+}
+
+
+/*===============section1=================*/
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-image: url(../images/lotus-flower.jpg);
+  background-repeat: no-repeat;
+  height: 757px;
+ max-width: 1100px;
+ margin: auto;
+}
+
+.overlay {
+  display: flex;
+  position: absolute;
+  background-color: black;
+  opacity: 0.6;
+  height: 100%;
+  width: 100%;
+}
+
+.cover__menu {
+  padding: 165px 50px 51px;
+}
+
+.title {
+  position: relative;
+  z-index: 1;
+  color: white;
+  
+  text-transform: uppercase;
+}
+
+.title__text {
+font-size: 100px;
+font-weight: 700;
+line-height: 115px;
+color: white;
+}
+
+.title__text_left {
+  text-align: left;
+}
+
+.title__text_ls-l {
+  letter-spacing: 20px;
+}
+
+.title__text_ls-xl {
+  letter-spacing: 30px;
+}
+
+.title__text_ls-no {
+  letter-spacing: 0;
+}
+
+
+.menu__item {
+  padding-top: 135px;
+  padding-left: 28px;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.item__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.item__content-style {
+  font-size: 22px;
+  word-spacing: 18.5px;
+}
+
+.item__content-button {
+  padding: 4px;
+  border: 1px solid white;
+  padding: 12px 32px 11px 31px;
+}
+
+/*===============section2=================*/
+
+.lots {
+  margin-top: 180px;
+}
+
+.lots__title {
+  padding-bottom: 27px;
+  padding-left: 40px;
+  font-size: 40px;
+}
+
+.lots__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-style {
+  color: white;
+  height: 464px;
+  width: 254px;
+}
+
+.card__title {
+  z-index: 1;
+  font-size: 22px;
+  text-decoration: underline;
+  line-height: 27px;
+}
+
+.card__content {
+  z-index: 1;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.cards {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 51px 40px 48px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cards:first-of-type {
+background-image: url(../images/photo.jpg);
+}
+
+.cards:nth-of-type(2) {
+background-image: url(../images/photo-second.jpg);
+}
+
+.cards:nth-of-type(3) {
+   background-image: url(../images/photo-third.jpg);
+}
+
+.card__info {
+  padding-top: 30px;
+  padding-left: 40px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.cards-overlay {
+  top: 0px;
+  left: 0px;
+}
+
+/*===============section3=================*/
+
+.about {
+  margin-top: 146px;
+}
+
+.about__content {
+  position: relative;
+  padding-top: 149px;
+  padding-left: 359px;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 23px;
+}
+
+.about__title {
+  padding-bottom: 112px;
+}
+
+.about__title-style {
+  font-size: 40px;
+  line-height: 24px;
+}
+
+.about__text-style {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.about__logo {
+  position: absolute;
+  padding-top: 35px;
+  padding-left: 47px;
+}
+
+.logo-title {
+  position: absolute;
+  padding: 64px 0px 0px 47px;
+  z-index: 1;
+}
+
+.logo-background {
+  position: absolute;
+  z-index: -1;
+}
+
+/*======================footer====================*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  
+  margin-top: 180px;
+  margin-bottom: 88px;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+
+.icons__youtube {
+  width: 48px;
+  height: 48px;
+}
+
+
+.icons__vk {
+  width: 48px;
+  height: 48px;
+}
+
+.icons__pinterest {
+  width: 48px;
+  height: 48px;
+}
+
+
